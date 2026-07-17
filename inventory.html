@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventory — Route Six Auto</title>
+<meta name="description" content="Browse in-stock used vehicles at Route Six Auto in Ogden, UT. Filter by body type and see full specs on every car.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <svg class="logo-mark" viewBox="0 0 100 104" aria-hidden="true">
+        <path d="M8 6 H92 V58 L50 100 L8 58 Z"/>
+        <text x="50" y="66" text-anchor="middle">6</text>
+      </svg>
+      <span class="logo-text">ROUTE <span>SIX</span><small>AUTO</small></span>
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="inventory.html" class="active">Inventory</a>
+      <a href="index.html#financing">Financing</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a href="index.html#financing" class="nav-cta">Get Pre-Approved</a>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <h1>Full Inventory</h1>
+    <p>Every price shown is the price you pay — no destination fees, no "dealer prep" add-ons.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top:48px;">
+  <div class="wrap">
+
+    <div class="filter-bar">
+      <button class="filter-chip active" data-filter="all">All</button>
+      <button class="filter-chip" data-filter="sedan">Sedans</button>
+      <button class="filter-chip" data-filter="suv">SUVs</button>
+      <button class="filter-chip" data-filter="truck">Trucks</button>
+      <span class="filter-count"><span id="visible-count">6</span> vehicles</span>
+    </div>
+
+    <div class="card-grid" id="grid">
+
+      <article class="sticker-card" data-type="suv">
+        <div class="sticker-perf"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="sticker-photo">
+          <div class="corner-tag">$14,980</div>
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+          <div class="photo-placeholder">
+            <svg class="car-icon" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 40 L10 32 Q10 28 14 26 L28 26 L38 14 Q40 12 44 12 L78 12 Q82 12 84 15 L94 26 L108 26 Q112 26 112 32 L112 40"/>
+              <line x1="4" y1="40" x2="116" y2="40"/>
+              <circle cx="30" cy="40" r="7"/>
+              <circle cx="92" cy="40" r="7"/>
+              <line x1="44" y1="12" x2="44" y2="26" stroke-width="2"/>
+              <line x1="78" y1="12" x2="78" y2="26" stroke-width="2"/>
+            </svg>
+            <span class="photo-label">Image Pending</span>
+          </div>
+        </div>
+        <div class="sticker-body">
+          <h3>2019 Subaru Outback</h3>
+          <p class="sticker-trim">2.5i Premium · AWD</p>
+          <dl class="spec-grid">
+            <dt>Mileage</dt><dd>61,204 mi</dd>
+            <dt>Trans.</dt><dd>Automatic</dd>
+            <dt>Drivetrain</dt><dd>AWD</dt>
+            <dt>Color</dt><dd>Magnetite Gray</dd>
+          </dl>
+        </div>
+        <div class="sticker-footer"><span class="sticker-stock">STK #RS4471</span><a href="#" class="sticker-link">Details →</a></div>
+      </article>
+
+      <article class="sticker-card" data-type="sedan">
+        <div class="sticker-perf"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="sticker-photo">
+          <div class="corner-tag">$9,450</div>
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+          <div class="photo-placeholder">
+            <svg class="car-icon" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 40 L10 32 Q10 28 14 26 L28 26 L38 14 Q40 12 44 12 L78 12 Q82 12 84 15 L94 26 L108 26 Q112 26 112 32 L112 40"/>
+              <line x1="4" y1="40" x2="116" y2="40"/>
+              <circle cx="30" cy="40" r="7"/>
+              <circle cx="92" cy="40" r="7"/>
+              <line x1="44" y1="12" x2="44" y2="26" stroke-width="2"/>
+              <line x1="78" y1="12" x2="78" y2="26" stroke-width="2"/>
+            </svg>
+            <span class="photo-label">Image Pending</span>
+          </div>
+        </div>
+        <div class="sticker-body">
+          <h3>2016 Honda Civic</h3>
+          <p class="sticker-trim">EX Sedan · FWD</p>
+          <dl class="spec-grid">
+            <dt>Mileage</dt><dd>78,940 mi</dd>
+            <dt>Trans.</dt><dd>Automatic</dd>
+            <dt>Drivetrain</dt><dd>FWD</dt>
+            <dt>Color</dt><dd>Crystal Black</dd>
+          </dl>
+        </div>
+        <div class="sticker-footer"><span class="sticker-stock">STK #RS4438</span><a href="#" class="sticker-link">Details →</a></div>
+      </article>
+
+      <article class="sticker-card" data-type="truck">
+        <div class="sticker-perf"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="sticker-photo">
+          <div class="corner-tag">$21,900</div>
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+          <div class="photo-placeholder">
+            <svg class="car-icon" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 40 L10 32 Q10 28 14 26 L28 26 L38 14 Q40 12 44 12 L78 12 Q82 12 84 15 L94 26 L108 26 Q112 26 112 32 L112 40"/>
+              <line x1="4" y1="40" x2="116" y2="40"/>
+              <circle cx="30" cy="40" r="7"/>
+              <circle cx="92" cy="40" r="7"/>
+              <line x1="44" y1="12" x2="44" y2="26" stroke-width="2"/>
+              <line x1="78" y1="12" x2="78" y2="26" stroke-width="2"/>
+            </svg>
+            <span class="photo-label">Image Pending</span>
+          </div>
+        </div>
+        <div class="sticker-body">
+          <h3>2021 Ford F-150</h3>
+          <p class="sticker-trim">XLT SuperCrew · 4WD</p>
+          <dl class="spec-grid">
+            <dt>Mileage</dt><dd>44,110 mi</dd>
+            <dt>Trans.</dt><dd>Automatic</dd>
+            <dt>Drivetrain</dt><dd>4WD</dt>
+            <dt>Color</dt><dd>Oxford White</dd>
+          </dl>
+        </div>
+        <div class="sticker-footer"><span class="sticker-stock">STK #RS4502</span><a href="#" class="sticker-link">Details →</a></div>
+      </article>
+
+      <article class="sticker-card" data-type="sedan">
+        <div class="sticker-perf"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="sticker-photo">
+          <div class="corner-tag">$11,200</div>
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+          <div class="photo-placeholder">
+            <svg class="car-icon" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 40 L10 32 Q10 28 14 26 L28 26 L38 14 Q40 12 44 12 L78 12 Q82 12 84 15 L94 26 L108 26 Q112 26 112 32 L112 40"/>
+              <line x1="4" y1="40" x2="116" y2="40"/>
+              <circle cx="30" cy="40" r="7"/>
+              <circle cx="92" cy="40" r="7"/>
+              <line x1="44" y1="12" x2="44" y2="26" stroke-width="2"/>
+              <line x1="78" y1="12" x2="78" y2="26" stroke-width="2"/>
+            </svg>
+            <span class="photo-label">Image Pending</span>
+          </div>
+        </div>
+        <div class="sticker-body">
+          <h3>2018 Toyota Corolla</h3>
+          <p class="sticker-trim">LE Sedan · FWD</p>
+          <dl class="spec-grid">
+            <dt>Mileage</dt><dd>52,318 mi</dd>
+            <dt>Trans.</dt><dd>Automatic</dd>
+            <dt>Drivetrain</dt><dd>FWD</dt>
+            <dt>Color</dt><dd>Silver Metallic</dd>
+          </dl>
+        </div>
+        <div class="sticker-footer"><span class="sticker-stock">STK #RS4455</span><a href="#" class="sticker-link">Details →</a></div>
+      </article>
+
+      <article class="sticker-card" data-type="suv">
+        <div class="sticker-perf"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="sticker-photo">
+          <div class="corner-tag">$18,650</div>
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+          <div class="photo-placeholder">
+            <svg class="car-icon" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 40 L10 32 Q10 28 14 26 L28 26 L38 14 Q40 12 44 12 L78 12 Q82 12 84 15 L94 26 L108 26 Q112 26 112 32 L112 40"/>
+              <line x1="4" y1="40" x2="116" y2="40"/>
+              <circle cx="30" cy="40" r="7"/>
+              <circle cx="92" cy="40" r="7"/>
+              <line x1="44" y1="12" x2="44" y2="26" stroke-width="2"/>
+              <line x1="78" y1="12" x2="78" y2="26" stroke-width="2"/>
+            </svg>
+            <span class="photo-label">Image Pending</span>
+          </div>
+        </div>
+        <div class="sticker-body">
+          <h3>2020 Jeep Grand Cherokee</h3>
+          <p class="sticker-trim">Laredo · 4WD</p>
+          <dl class="spec-grid">
+            <dt>Mileage</dt><dd>39,875 mi</dd>
+            <dt>Trans.</dt><dd>Automatic</dd>
+            <dt>Drivetrain</dt><dd>4WD</dd>
+            <dt>Color</dt><dd>Diamond Black</dd>
+          </dl>
+        </div>
+        <div class="sticker-footer"><span class="sticker-stock">STK #RS4488</span><a href="#" class="sticker-link">Details →</a></div>
+      </article>
+
+      <article class="sticker-card" data-type="truck">
+        <div class="sticker-perf"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="sticker-photo">
+          <div class="corner-tag">$16,300</div>
+          <div class="frame-corner tl"></div>
+          <div class="frame-corner tr"></div>
+          <div class="frame-corner bl"></div>
+          <div class="frame-corner br"></div>
+          <div class="photo-placeholder">
+            <svg class="car-icon" viewBox="0 0 120 60" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M10 40 L10 32 Q10 28 14 26 L28 26 L38 14 Q40 12 44 12 L78 12 Q82 12 84 15 L94 26 L108 26 Q112 26 112 32 L112 40"/>
+              <line x1="4" y1="40" x2="116" y2="40"/>
+              <circle cx="30" cy="40" r="7"/>
+              <circle cx="92" cy="40" r="7"/>
+              <line x1="44" y1="12" x2="44" y2="26" stroke-width="2"/>
+              <line x1="78" y1="12" x2="78" y2="26" stroke-width="2"/>
+            </svg>
+            <span class="photo-label">Image Pending</span>
+          </div>
+        </div>
+        <div class="sticker-body">
+          <h3>2017 Chevrolet Silverado</h3>
+          <p class="sticker-trim">LT Crew Cab · 4WD</p>
+          <dl class="spec-grid">
+            <dt>Mileage</dt><dd>82,440 mi</dd>
+            <dt>Trans.</dt><dd>Automatic</dd>
+            <dt>Drivetrain</dt><dd>4WD</dt>
+            <dt>Color</dt><dd>Summit White</dd>
+          </dl>
+        </div>
+        <div class="sticker-footer"><span class="sticker-stock">STK #RS4419</span><a href="#" class="sticker-link">Details →</a></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <svg class="footer-mark" viewBox="0 0 100 104" aria-hidden="true"><path d="M8 6 H92 V58 L50 100 L8 58 Z"/><text x="50" y="66" text-anchor="middle">6</text></svg>
+          <h4>Route Six Auto</h4>
+        </div>
+        <p>2245 Route Six Highway<br>Ogden, UT 84401</p>
+        <p>Serving Weber, Davis &amp; Box Elder counties</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Mon–Fri: 9am – 7pm</p>
+        <p>Saturday: 10am – 5pm</p>
+        <p>Sunday: Closed</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>(801) 555-0142</p>
+        <p>sales@routesixauto.com</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Route Six Auto. Sample site — not a real dealership.</span>
+      <span>Built by Fernando</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

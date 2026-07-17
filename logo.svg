@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 104">
+  <path d="M8 6 H92 V58 L50 100 L8 58 Z" fill="#1c1d1f" stroke="#e8a33d" stroke-width="7"/>
+  <text x="50" y="66" font-family="Arial, sans-serif" font-weight="700" font-size="54" fill="#f6f4ee" text-anchor="middle">6</text>
+  <text x="112" y="52" font-family="Arial, sans-serif" font-weight="800" font-size="34" letter-spacing="1" fill="#17181a">ROUTE <tspan fill="#e8a33d">SIX</tspan></text>
+  <text x="112" y="76" font-family="Courier New, monospace" font-weight="700" font-size="14" letter-spacing="4" fill="#52565c">AUTO DEALERSHIP</text>
+</svg>
