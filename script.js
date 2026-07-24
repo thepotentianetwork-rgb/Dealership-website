@@ -13,9 +13,9 @@
 // Until all three are set, the page keeps showing the static sample
 // cards already in the HTML.
 // ============================================================
-const SUPABASE_URL = "";
-const SUPABASE_ANON_KEY = "";
-const TENANT_ID = "";
+const SUPABASE_URL = "https://tzopofqahgenotfxkyzf.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_n8x49gtJJ5Cm8_k4E3G_Yg_H6TR25Y4";
+const TENANT_ID = "e0ba1531-1bb1-4247-9f1c-fed7fa6d9499";
 
 const LIVE_INVENTORY_ENABLED = Boolean(SUPABASE_URL && SUPABASE_ANON_KEY && TENANT_ID);
 
